@@ -21,6 +21,18 @@ header {
     padding: 1rem 0;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    flex: 0 0 200px; /* Fixed width for the navigation */
+    background-color: #333;
+    color: #fff;
+    padding-top: 1rem;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -34,13 +46,14 @@ nav button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color: #444;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 main {
+    flex: 1; /* Take remaining space */
     padding: 2rem;
 }
 

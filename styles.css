@@ -47,7 +47,7 @@ nav button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #ddd; /* Light button background color */
+    background-color: #f6f5f5; /* Light button background color */
     color: #333; /* Button text color */
     border: none;
     cursor: pointer;

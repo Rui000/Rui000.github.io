@@ -1,4 +1,3 @@
-
 document.getElementById('ExKMC').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'block';
     document.getElementById('ICOT_result').style.display = 'none';

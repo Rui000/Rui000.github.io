@@ -1,7 +1,6 @@
 document.getElementById('ExKMC').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'block';
     document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'none';
     document.getElementById('Recall').style.display = 'none';
@@ -13,7 +12,6 @@ document.getElementById('ICOT').addEventListener('click', function() {
     document.getElementById('ICOT_resultiframe').src = 'ICOT_result.html';
     document.getElementById('ExKMC_result').style.display = 'none';
     document.getElementById('ICOT_result').style.display = 'block';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'none';
     document.getElementById('Recall').style.display = 'none';
@@ -21,21 +19,9 @@ document.getElementById('ICOT').addEventListener('click', function() {
     document.getElementById('Precision').style.display = 'none';
 });
 
-document.getElementById('MPC').addEventListener('click', function() {
-    document.getElementById('ExKMC_result').style.display = 'none';
-    document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'block';
-    document.getElementById('ExShallow_result').style.display = 'none';
-    document.getElementById('K-means+CART_result').style.display = 'none';
-    document.getElementById('Recall').style.display = 'none';
-    document.getElementById('F1-score').style.display = 'none';
-    document.getElementById('precision').style.display = 'none';
-});
-
 document.getElementById('ExShallow').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'none';
     document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'block';
     document.getElementById('K-means+CART_result').style.display = 'none';
     document.getElementById('Recall').style.display = 'none';
@@ -46,7 +32,6 @@ document.getElementById('ExShallow').addEventListener('click', function() {
 document.getElementById('K-means+CART').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'none';
     document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'block';
     document.getElementById('Recall').style.display = 'none';
@@ -57,7 +42,6 @@ document.getElementById('K-means+CART').addEventListener('click', function() {
 document.getElementById('Recall').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'none';
     document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'none';
     document.getElementById('Recall').style.display = 'none';
@@ -67,7 +51,6 @@ document.getElementById('Recall').addEventListener('click', function() {
 document.getElementById('F1-score').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'none';
     document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'none';
     document.getElementById('Recall').style.display = 'none';
@@ -77,7 +60,6 @@ document.getElementById('F1-score').addEventListener('click', function() {
 document.getElementById('Precision').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'none';
     document.getElementById('ICOT_result').style.display = 'none';
-    document.getElementById('MPC_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'none';
     document.getElementById('Recall').style.display = 'none';

@@ -44,9 +44,9 @@ document.getElementById('Recall').addEventListener('click', function() {
     document.getElementById('ICOT_result').style.display = 'none';
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'none';
-    document.getElementById('Recall_result').style.display = 'none';
+    document.getElementById('Recall_result').style.display = 'block';
     document.getElementById('F1-score_result').style.display = 'none';
-    document.getElementById('Precision_result').style.display = 'block';
+    document.getElementById('Precision_result').style.display = 'none';
 });
 document.getElementById('F1-score').addEventListener('click', function() {
     document.getElementById('ExKMC_result').style.display = 'none';

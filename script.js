@@ -6,7 +6,7 @@ document.getElementById('ExKMC').addEventListener('click', function() {
     document.getElementById('K-means+CART_result').style.display = 'none';
 });
 
-document.getElementById('ICOT_result').addEventListener('click', function() {
+document.getElementById('ICOT').addEventListener('click', function() {
     fetch('ICOT_result.html')
         .then(response => response.text())
         .then(html => {

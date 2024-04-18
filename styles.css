@@ -66,6 +66,12 @@ main {
     position: relative;
 }
 
+.result img {
+    max-width: 100%; /* Make sure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Limit the maximum height */
+}
+
 /* Footer styles */
 footer {
     background-color: #333;

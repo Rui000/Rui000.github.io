@@ -38,3 +38,16 @@ document.getElementById('K-means+CART').addEventListener('click', function() {
     document.getElementById('ExShallow_result').style.display = 'none';
     document.getElementById('K-means+CART_result').style.display = 'block';
 });
+
+document.getElementById('recall').addEventListener('click', function() {
+
+    document.getElementById('recall').style.display = 'block';
+});
+document.getElementById('f1').addEventListener('click', function() {
+
+    document.getElementById('f1').style.display = 'block';
+});
+document.getElementById('precision').addEventListener('click', function() {
+
+    document.getElementById('precision').style.display = 'block';
+});

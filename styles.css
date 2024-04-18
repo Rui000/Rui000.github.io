@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9; /* Light background color */
     color: #333;
     margin: 0;
     padding: 0;
@@ -28,8 +28,8 @@ header {
 
 nav {
     flex: 0 0 200px; /* Fixed width for the navigation */
-    background-color: #333;
-    color: #fff;
+    background-color: #f3f3f3; /* Light navigation background color */
+    color: #333; /* Navigation text color */
     padding-top: 1rem;
 }
 
@@ -46,8 +46,8 @@ nav button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #444;
-    color: #fff;
+    background-color: #ddd; /* Light button background color */
+    color: #333; /* Button text color */
     border: none;
     cursor: pointer;
 }

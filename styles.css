@@ -64,18 +64,6 @@ main {
     grid-gap: 10px;
 }
 
-/* Add this CSS to enable zoom functionality */
-.result img {
-    max-width: 100%; /* Ensure images do not exceed the container width */
-    max-height: 100%; /* Ensure images do not exceed the container height */
-    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
-}
-
-.result img:hover {
-    transform: scale(2); /* Increase image size on hover (can adjust the scale factor as needed) */
-    z-index: 1; /* Ensure zoomed image overlays other content */
-}
-
 
 footer {
     background-color: #333;

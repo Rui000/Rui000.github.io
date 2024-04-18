@@ -63,7 +63,22 @@ main {
   height: 100%;
 }
 
-
+.result img{
+    padding-top: 20px;
+    width: 2000px;
+    height: auto;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.result_per{
+    width: 100%;
+    height: 100%;
+}
+.result_per img{
+    width: 1000px;
+}
 footer {
     background-color: #333;
     color: #fff;
